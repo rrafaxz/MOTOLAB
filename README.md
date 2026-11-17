@@ -24,7 +24,7 @@ A demonstração usa apenas dados fictícios e o armazenamento do navegador. A c
 
 ## Implantação
 
-Importe o repositório como projeto Vite na Vercel. O build gera dist. Configure as duas variáveis VITE_SUPABASE antes do build. O plano Hobby da Vercel é para uso pessoal e não comercial. O app é estático e o mesmo build pode ser publicado em um host estático cujo plano gratuito comporte uso comercial.
+Importe o repositório como projeto Vite na Vercel. O build gera dist. A integração com o Supabase fornece a URL e a chave publishable por meio de NEXT_PUBLIC_SUPABASE_URL e NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY ou de SUPABASE_URL e SUPABASE_PUBLISHABLE_KEY. O Motolab também aceita a configuração VITE_SUPABASE descrita acima. O plano Hobby da Vercel é para uso pessoal e não comercial. O app é estático e o mesmo build pode ser publicado em um host estático cujo plano gratuito comporte uso comercial.
 
 ## Regras
 
